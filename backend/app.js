@@ -2,7 +2,8 @@ var express = require('express');
 var session = require('express-session')
 var app = express();
 var db = require('./db');
-var port = process.env.PORT || 4200;
+// var port = process.env.PORT || 4200;
+var port = 4200;
 var server = require('http').createServer(app);
 var http = require("http").Server(express)
 // app.set('view engine', 'ejs');
